@@ -1,3 +1,3 @@
 VIsit my Portfolio here : 
 
-  https://salonigarg.github.io
+  https://saloni-garg.github.io
