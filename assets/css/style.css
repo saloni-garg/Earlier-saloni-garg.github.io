@@ -302,12 +302,12 @@ span.round-tabs{
     line-height: 70px;
     display: inline-block;
     border-radius: 100px;
-    background: white;
+    background: black;
     z-index: 2;
     position: absolute;
     left: 0;
     text-align: center;
-    font-size: 25px;
+    font-type: bold;
 }
 
 span.round-tabs.one{
