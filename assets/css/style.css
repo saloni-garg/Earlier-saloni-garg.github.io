@@ -16,6 +16,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+p{
+    font-family: 'Lato', sans-serif;
+}
+
 .pad-top {
     padding-top:50px;
 }
@@ -49,7 +53,7 @@ transform: scale(2);
 }
 
 .mymymyo:hover{
-transform: scale(2.4);
+transform: scale(2);
 }
 
 .mymymyi:hover{
@@ -79,8 +83,9 @@ background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5
  ============================================================ */
 .custom-btn-one {
     color: #fff;
-   background-color:rgba(0, 0, 0, 0.70);
+   background-color: #ff6e71;
    border-color: rgb(255, 15, 101);
+   font-weight: 500;
 }
     .custom-btn-one:hover {
          color: #fff;
@@ -151,6 +156,7 @@ color:#fff;
 }
     #home-sec a,#home a:hover {
         text-decoration:none;
+         border-bottom: none;
     }
 #home-sec h1 {
 font-weight: 900;
@@ -186,6 +192,7 @@ cursor: pointer;
 }
     .icon-round:hover {
         background-color:rgb(255, 15, 101);
+        color:#fff;
     }
 
 .icon-round-active {
@@ -195,12 +202,18 @@ cursor: pointer;
     /* =============================================================
   ABOUT SECTION STYLES
  ============================================================ */   
+
+
 #about-sec .social-icon {
 	padding:10px 0px 30px 0px;
 }
     #about-sec .social-icon a > img {
         padding:5px;
     }
+
+.social-icon a{
+  border-bottom: none;
+}
 
 
 /* =============================================================
@@ -594,6 +607,7 @@ color:#fff;
 #hire-sec .form-control {
     background-color:transparent;
     color : white;
+    border: 1px solid #ff6e71;
 	}
 /*=====================================
   FOOTER STYLES 
@@ -736,4 +750,30 @@ opacity:0.7;
 .album:hover .photo7, .album:focus .photo7 {
     transform: translate(600px, 0px) scale(1.2);
 	border: 0px;
+}
+
+::-webkit-input-placeholder{
+  color: #fff !important;
+}
+
+input{
+  min-height: 50px;
+}
+
+a,
+a:hover,
+a:focus{
+  color: #ff6e71;
+  text-decoration: none;
+  border-bottom: 2px solid #ff6e71;
+}
+
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.line{
+  display: flex;
+  justify-content: center;
 }
