@@ -2,4 +2,4 @@
 
   https://saloni-garg.github.io
 
-I am a sophomore at The LNM Institute of Information Tecnology, Jaipur, Rajathan (INDIA).
+I am a sophomore at The LNM Institute of Information Tecnology, Jaipur, Rajathan (INDIA)
